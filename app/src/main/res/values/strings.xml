@@ -1,3 +1,135 @@
 <resources>
-    <string name="app_name">Jichunge</string>
+    <string name="app_name">Defense Mechanism</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="welcome_text">Welcome to your one stop catalog for your favourite martial art legends and some cool but deadly moves.</string>
+    <string name="selection_prompt_text">Select something from the list!</string>
+
+    <string name="quit_prompt">Quit Defense Mechanism?</string>
+    <string name="title_activity_legend">LegendActivity</string>
+    <string name="title_activity_move">MoveActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Demo container details -->
+    <string name="demo_name">Fahim Mohiuddin</string>
+    <string name="demo_description">
+        MOHIUDDIN
+        \n
+        \nFahim Mohiuddin
+        \n
+        \n<b>CSE Student</b>
+        \n
+        \n
+        \n<i>Fahim mohiuddin dhrubo</i>
+        \n\n
+        \nDhrubo
+    </string>
+
+    <string name="title_activity_credit">CreditActivity</string>
+
+
+    <!-- MOVES LIST -->
+    <string name="move_1_name">Front Kick</string>
+    <string name="move_1_desc">
+        Lift your rear knee up and toward your chest. Do not drop your hands, which is a common error, as this will open you up to being struck while executing the kick.With power emanating from your hips, kick straight out into your opponent. The front kick can connect to the body or the face. In this version, the applier turns his pivot foot outside and leans back.
+        \n
+        \nThe strike may connect with either the ball of the foot the heel, or the entire foot. Afterwards, pull your knee back to your body quickly and return your leg to the floor.
+    </string>
+
+    <string name="move_2_name">Muay Thai Clinch</string>
+    <string name="move_2_desc">
+        Begin gripping or grabing hold of an opponent\'s neck with only one hand and pulling your opponent\'s head toward you.Now latch on with the second hand and move closer, pulling your opponent\'s head in further.Your elbows are inside of his adversary\'s. This is crucial. Oppenent attempting to gain a clinch advantage will often fight for this position.
+        \n
+        \nThe final position is that you have pulled your opponent\'s head in further and are readying for a knee strike. Your feet are shoulder width apart, you have moved closer, and are in a balanced position. Your body is stretched slightly backwards in order to allow for a possible knee strike. You are on the ball of your right foot with one hand on the back of the head and the other placed diagonally (wrists touching) to help enforce the move.
+    </string>
+
+    <string name="move_3_name">Rear Neck Choke</string>
+    <string name="move_3_desc">
+        Start in Rear Mount, control your opponent with the over-under grip. It\'s important that your bottom hand grabs your top wrist, and not the other way around. Then grip his opposite (right) shoulder with your top (left) hand. Now pull your bottom (right) arm out from under his armpit and clasp your hands together, palm-to-palm.With your left hand regrip the shoulder. At the same time shoot your right hand forward to knock his right hand off of your forearm, limiting his ability to block your choke. The noose around his neck is much tighter, and his primary defense – his right hand – has been removed from your forearm. Now shoot your right hand deep behind his neck and lock it into place using pressure from your own head. Your left hand is on your right bicep. Squeeze down, in and up in a hooking motion under his jaw. Also stretch him out by extending your legs and arching your back to make the choke even more powerful.
+    </string>
+
+    <string name="move_4_name">Back Leg Side Kick</string>
+    <string name="move_4_desc">
+        Start with pivoting your right foot 90 degrees to the left 90 degrees from your opponent- and picks up your back leg in the process. Your base leg should be slightly bent. Then executes the side kick by leaning back slightly and turning your hips over in a counterclockwise direction. At the same time, your left foot turns 90 degrees so that it faces directly behind you. This turn allows for more drive or push off. To finish the entire move, bring your right knee back into your body.
+        \n
+        \nThe side kick is a strike that moves straight out and back, rather than an angled kick like the roundhouse or round kick. The side kick is generally meant to make contact with the body.
+    </string>
+
+    <string name="move_5_name">Spinning Back Kick</string>
+    <string name="move_5_desc">
+        Shift your right leg to slide outside of opponents lead leg and continue to look at the opponent and keep your hands up. Now turn your body in a clockwise direction and whip your head around quickly so that you can see the opponent. Now bring your right knee up and shift your weight onto your left leg. It is important to bring the knee up. Keep rotating your body, lean back in order to keep your balance, and drive the heel of your foot into your opponent. The spinning back kick targets the body or hips. It is important to make sure that your toes do not point up upon impact. After the kick has made impact retract your leg.
+    </string>
+
+    <string name="move_6_name">Double Leg Take Down</string>
+    <string name="move_6_desc">
+        To start things off, adopts a more grappling oriented fighting stance. When the opponent throws a punch, duck under the punch by dropping a level and avoid it. Then shoot forward bringing your right foot forward. Your head ends up on your opponent\'s left hip, and grasp both knees. Then lifts your opponent up with good form (your back is straight at the apex) and turn him to the left. Due to the fact that you turned your opponent in the air to the left and continued to hold his body firmly, upon bringing him to the ground your establishes side control. Finally, move your right knee to the opponent\'s stomach and lock him.
+    </string>
+
+    <string name="move_7_name">Basic Closed Guard</string>
+    <string name="move_7_desc">
+        Use your right hand in an overhand lapel grip to keep your opponent\'s body close. Also exercise wrist control with your left hand, which forbids your opponent to punch with it. This version of the closed guard can only be used when an opponent is wearing strong clothing like a coat.
+        \n
+        \nIt\'s never good when an opponent is able to break the guard by standing up, as that gives them room to maneuver to a better position or strike from various angles. Maintain your position by keeping your legs hooked and capturing your opponents\' right leg with your left arm and left wrist with your right hand. These movements serve to keep your opponenet from effectively breaking free.
+    </string>
+
+    <string name="move_8_name">Achilles Lock</string>
+    <string name="move_8_desc">
+        In order to pull off an Achilles Lock from this position, you must not be in your opponent\'s full guard. Grasp your opponent\’s left calf by snaking your right arm around it as close to the tendon as possible. Your right forearm begins to press into the tendon. Simultaneously, slide your left knee over the right thigh of your opponent and pushe down on his chest with your left hand. This is done in order to keep your opponent from getting up. Then fall backward on your left side, simultaneously throwing your right leg over your opponent\’s. Press your right foot against your opponent\’s body and slides your left leg through the opening in your opponent\’s legs. Now bring both feet tightly together against your opponent\’s body and presses with them. Your right forearm digs hard into the tendon as you grasps your own left wrist while arching backwards and pressing your hips forward. By looking over your shoulder and squeezing your knees together, you sinks the lock in strongly.
+    </string>
+
+    <string name="move_9_name">Armbar From the Guard</string>
+    <string name="move_9_desc">
+        In order to achieve an armbar from the closed guard position, you must first, of course, achieve the closed guard position. Take hold of your opponent\'s right arm with both hands (right hand at the elbow for better control). As you secure the arm, lift your hips off the floor. This will give you a better angle to pull from. Rotate your hips slightly and pull his arm over. The combination of this with your continued closed guard should bring the rest of his body closer. Open both legs simultaneously, moving them upward, like in a reverse crunch. The idea is to move those open legs quickly, as you\'re in danger of losing your position once the legs open. Quickly close your legs. Use your left hand against your opponent\'s face and squeeze your knees to the left. Squeezing your knees with power is crucial. Your left leg moves to cross your opponent\’s face. Extend your hips up while controlling the arm with both of your hands or arms for the arm bar.
+    </string>
+
+    <string name="move_10_name">Hopping Side Kick</string>
+    <string name="move_10_desc">
+        Begin in your basic fighting stance with your kicking leg back. One common stance is to have your right leg back and a few inches to your right, your body turned almost all of the way to the side and your hands up. Take a few steps forward. This will vary according to your application. Jump off of your non-kicking leg while thrusting your kicking leg up as high toward your chest as you can.You should turn your body to the side (kicking side forward) and bring your non-kicking leg as close your body as possible. At the last second, thrust your kicking leg out so that your heel makes contact with your opponent. Your foot should be parallel to the ground, or ideally, toes slightly pointing down. Be sure to land on your feet.
+    </string>
+
+
+    <!-- LEGENDS LIST -->
+    <string name="legend_1_name">Bruce Lee</string>
+    <string name="legend_1_origin">Hong Kong</string>
+    <string name="legend_1_desc">
+        Bruce Lee was a Hong Kong American martial artist, Hong Kong action film actor, martial arts instructor, philosopher, filmmaker and the founder of Jeet Kune Do. Lee was the son of Cantonese opera star Lee Hoi-Chuen. He is widely considered by commentators, critics, media and other martial artists to be one of the most influential martial artists of all time and a pop culture icon of the 20th century.The largest influence on Lee\'s martial arts development was his study of Wing Chun. Lee began training in Wing Chun when he was 16 years old under the Wing Chun teacher Yip Man in 1957.
+    </string>
+
+    <string name="legend_2_name">Jet Li</string>
+    <string name="legend_2_origin">China</string>
+    <string name="legend_2_desc">
+        Jet Li, is a Chinese film actor, film producer, martial artist, and wushu champion. Li was born in Beijing, China, as the youngest of two boys and two girls. His father died when he was two years old, leaving the family struggling.He is a naturalised Singaporean citizen.
+        \n
+        \nLi was eight when his talent for wushu was noticed at a summer course at school, and he began his practice there. Li participated in the sport of wushu in the non-sparring event. He began his wushu on the Beijing Wushu Team, an athletic group organised to perform martial arts forms during the All China Games. He was coached by renowned wushu coaches Li Junfeng and Wu Bin, who made extra efforts to help the talented boy develop. Wu Bin even bought food for Li\'s family because they could not afford to buy meat, which was essential for the good physical condition of an athlete. As a member of the team, he received wushu training and went on to win fifteen gold medals and one silver medal in Chinese wushu championships, where, despite his young age, he competed against adults.
+    </string>
+
+    <string name="legend_3_name">Yip Man</string>
+    <string name="legend_3_origin">China</string>
+    <string name="legend_3_desc">
+        Yip Man, also known as Ip Man, was born on October 1, 1893, in Foshan, China. He studied Wing Chun and went on the become one of the most respected martial arts masters of his time. Among his most notable students was Bruce Lee. Yip Man died on December 2, 1972, in Hong Kong. In 2013, two films about his life were released, The Grandmaster and Ip Man: The Final Fight.
+        \n
+        \nYip started learning Wing Chun from Chan Wah-shun when he was 7. Since Chan was 70 at the time, Yip was Chan\'s last student. Due to his teacher\'s age, Yip learned most of his skills and techniques from Chan\'s second eldest disciple, Wu Chung-sok. Chan lived three years after Yip\'s training started and one of his dying wishes was to have Wu continue teaching Yip.
+    </string>
+
+    <string name="legend_4_name">Chuck Norris</string>
+    <string name="legend_4_origin">America</string>
+    <string name="legend_4_desc">
+        Carlos Ray "Chuck" Norris (born March 10, 1940) is an American martial artist, actor, film producer and screenwriter. After serving in the United States Air Force, he began his rise to fame as a martial artist, and has since founded his own school, Chun Kuk Do. Norris joined the Air Force as an Air Policeman in 1958 and was subsequently stationed at Osan Air Base in South Korea. It is there that he began training in Tang Soo Do, a form of karate that he eventually achieved black belt status in. Norris also awarded 8th degree Black Belt Grand Master recognition in Tae Kwon Do. He was the first in the Western Hemisphere to accomplish this.
+        \n
+        \nIn 2000, Norris was presented with the Golden Lifetime Achievement Award by the World Karate Union Hall of Fame. More recently, Norris was awarded a black belt in Brazilian Jiu Jitsu.
+    </string>
+
+    <string name="legend_5_name">Donnie Yen</string>
+    <string name="legend_5_origin">China</string>
+    <string name="legend_5_desc">
+        Donnie Yen was born on July 27, 1963 in Guangzhou, Guangdong, China. Yen\'s first martial arts experiences came early, as his mother is an internal martial arts grandmaster. In fact, it is said that his training in Tai Chi and Chinese Wushu began as soon as he could walk. However, his training in wushu really picked up once he dropped out of school while living in Boston and it is said that he tried other styles during this period as well.
+        \n
+        \nEventually, his parents became concerned that he was spending too much time with a bad crowd, so they sent him to Beijing for a two year training program with the Beijing Wushu Team. Yen was the first non-PRC Chinese to be accepted there.
+    </string>
+
 </resources>
