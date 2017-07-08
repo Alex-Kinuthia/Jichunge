@@ -12,20 +12,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        tools:context="os.com.chappie.LoginActivity">
+        tools:context="com.example.alex.jichunge.ui.LoginActivity"
+        android:weightSum="1">
 
         <android.support.v7.widget.AppCompatImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="400dp"
             android:layout_gravity="center"
-            app:srcCompat="@drawable/jichunge" />
-
-        <android.support.v7.widget.AppCompatImageView
-            android:id="@+id/appCompatImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            app:srcCompat="@drawable/chappie_logo_text" />
+            app:srcCompat="@drawable/fist"
+            android:layout_weight="1.84" />
 
         <com.google.android.gms.common.SignInButton
             android:id="@+id/sign_in_button"
@@ -34,4 +29,7 @@
             android:layout_gravity="center"
             android:layout_margin="20dp" />
     </LinearLayout>
+
+
+
 </ScrollView>

@@ -12,10 +12,10 @@ import com.example.alex.jichunge.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FamilyFragment extends Fragment {
+public class MapFragment extends Fragment {
 
 
-    public FamilyFragment() {
+    public MapFragment() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class FamilyFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_family, container, false);
+        return inflater.inflate(R.layout.fragment_map, container, false);
     }
 
 }

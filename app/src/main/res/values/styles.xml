@@ -45,5 +45,24 @@
         <item name="android:textSize">20sp</item>
     </style>
 
+    <style name="run" parent="@android:style/TextAppearance">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF9900</item>
+    </style>
+
+    <style name="title" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="runs" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
 
 </resources>
