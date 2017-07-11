@@ -16,7 +16,7 @@ import com.example.alex.jichunge.R;
 
 public class slidingimage extends PagerAdapter {
 
-    private int [] images={R.drawable.s2, R.drawable.s3,R.drawable.selectcontact, R.drawable.drawerpic};
+    private int [] images={R.drawable.s2, R.drawable.s3};
     private LayoutInflater layoutInflater;
     private Context context;
 
@@ -51,4 +51,6 @@ public class slidingimage extends PagerAdapter {
     public void destroyItem(ViewGroup container, int position, Object object) {
         container.removeView((FrameLayout)object);
     }
+
+
 }

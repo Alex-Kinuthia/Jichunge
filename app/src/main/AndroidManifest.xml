@@ -70,7 +70,7 @@
     -->
     <meta-data
         android:name="com.google.android.geo.API_KEY"
-        android:value="@string/google_maps_key" />
+        android:value="AIzaSyD7gzxEEDeVmdLjO_p2DimIvxY37g2h5Cs" />
 
     <permission
         android:name="package.name.permission.MAPS_RECEIVE"
@@ -89,6 +89,6 @@
         </intent-filter>
     </activity>
     <activity android:name=".ui.DraftSms" />
-    <activity android:name=".AboutUs"></activity>
+    <activity android:name=".ui.AboutUs"></activity>
     </application>
 </manifest>

@@ -51,7 +51,7 @@ public class CallActivity extends AppCompatActivity {
     public void call(View view) {
         SharedPreferences sharedPreferences;
         sharedPreferences = getSharedPreferences("Emergency_Numbers", Context.MODE_PRIVATE);
-        String number = sharedPreferences.getString("phno0","8888799046");
+        String number = sharedPreferences.getString("phno0","+254716007495");
         Intent in = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + number));
         try {
 
