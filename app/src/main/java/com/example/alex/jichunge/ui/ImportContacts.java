@@ -10,6 +10,7 @@ import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.example.alex.jichunge.R;
 
@@ -90,7 +91,7 @@ public class ImportContacts extends Activity {
             size_of_emergency_contacts--;
 
         }
-
+        Toast.makeText(this, "saved", Toast.LENGTH_SHORT).show();
         //        System.out.print("say" + sharedpreferences.getString("name0", "blah"));
         //      System.out.print("say" + sharedpreferences.getString("name1", "blah"));
         editor1 = sharedpreferences1.edit();

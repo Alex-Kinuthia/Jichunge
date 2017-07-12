@@ -33,7 +33,7 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
     @Bind(R.id.signup_login)
     TextView msignIn;
 
-    @Bind(R.id.userName)
+    @Bind(R.id.UserName)
     EditText mUname;
     @Bind(R.id.email) EditText mEmail;
     @Bind(R.id.password) EditText mPassword;
