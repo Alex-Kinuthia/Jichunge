@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity
 
         }
         else if (id == R.id.nav_logout) {
-            Intent myIntent = new Intent(MainActivity.this, AboutUs.class);
+            Intent myIntent = new Intent(MainActivity.this, LoginActivity.class);
             MainActivity.this.startActivity(myIntent);
         }
 
