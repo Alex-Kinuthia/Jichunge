@@ -30,7 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Sign Up"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="0dp"
                 android:textColor="@color/colorIcons"
                 android:textAlignment="center"
                 android:textSize="32dp"/>
@@ -51,53 +51,59 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/userName"
+                    android:id="@+id/UserName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/input_bg"
-                    android:hint="@string/prompt_uname"
-                    android:inputType="textEmailAddress"
-                    android:maxLines="1"
-                    android:paddingLeft="5dp" />
+                    android:background="@android:color/white"
+                    android:hint="UserName"
+                    android:inputType="UserName"
+                    android:nextFocusDown="@+id/UserName"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/colorDivider"
+                    android:textSize="20sp" />
 
-                <AutoCompleteTextView
+                <EditText
                     android:id="@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/input_bg"
+                    android:background="@android:color/white"
+                    android:hint="Email"
+                    android:inputType="textEmail"
+                    android:nextFocusDown="@+id/email"
+                    android:padding="10dp"
                     android:layout_marginTop="7dp"
-                    android:hint="@string/prompt_email"
-                    android:inputType="textEmailAddress"
-                    android:maxLines="1"
-                    android:paddingLeft="5dp" />
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/colorDivider"
+                    android:textSize="20sp" />
 
                 <EditText
                     android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="7dp"
-                    android:paddingLeft="5dp"
-                    android:hint="@string/prompt_password"
-                    android:imeActionId="@+id/login"
-                    android:imeActionLabel="@string/action_sign_in_short"
-                    android:imeOptions="actionUnspecified"
+                    android:background="@android:color/white"
+                    android:hint="Password"
                     android:inputType="textPassword"
-                    android:background="@drawable/input_bg"
-                    android:maxLines="1" />
+                    android:nextFocusDown="@+id/password"
+                    android:padding="10dp"
+                    android:layout_marginTop="7dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/colorDivider"
+                    android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/connfirm_password"
+                    android:id="@+id/connfirmpassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="7dp"
-                    android:paddingLeft="5dp"
-                    android:hint="@string/prompt_password_confirm"
-                    android:imeActionId="@+id/login"
-                    android:imeActionLabel="@string/action_sign_in_short"
-                    android:imeOptions="actionUnspecified"
+                    android:background="@android:color/white"
+                    android:hint="Password Confirm"
                     android:inputType="textPassword"
-                    android:background="@drawable/input_bg"
-                    android:maxLines="1" />
+                    android:nextFocusDown="@+id/connfirmpassword"
+                    android:padding="10dp"
+                    android:layout_marginTop="7dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/colorDivider"
+                    android:textSize="20sp" />
 
                 <Button
                     android:id="@+id/email_sign_up_button"
@@ -106,7 +112,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:textColor="@color/colorIcons"
-                    android:background="@drawable/login_btn_bg"
+                    android:background="@color/colorAccent"
                     android:text="@string/action_sign_up"
                     android:textStyle="bold" />
 
@@ -115,7 +121,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="7dp"
-                    android:layout_gravity="end"
+                    android:layout_gravity="center"
                     android:textColor="@color/colorIcons"
                     android:text="Already have account Sign In"/>
             </LinearLayout>
