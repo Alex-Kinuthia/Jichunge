@@ -28,10 +28,8 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
 
     private static final String TAG = SignupActivity.class.getSimpleName();
 
-    @Bind(R.id.email_sign_up_button)
-    Button mButtomSignUp;
-    @Bind(R.id.signup_login)
-    TextView msignIn;
+    @Bind(R.id.email_sign_up_button) Button mButtomSignUp;
+    @Bind(R.id.signup_login) TextView msignIn;
 
     @Bind(R.id.UserName) EditText mUname;
     @Bind(R.id.email) EditText mEmail;
