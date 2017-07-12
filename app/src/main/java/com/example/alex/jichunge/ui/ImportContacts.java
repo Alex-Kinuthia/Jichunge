@@ -58,6 +58,7 @@ public class ImportContacts extends Activity {
         //adapter=new ArrayAdapter<String>(this,R.layout.customcontactslist,con);
         contactslist.setAdapter(new CustomAdapter(ImportContacts.this, list));
 
+
         //contactslist.setAdapter(adapter);
     }
     // We iterate through the shared prefs file called Emergency_Contacts to get the name and pass it to the method getPhoneNumber().

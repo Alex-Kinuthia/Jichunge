@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "872310380554",
+    "firebase_url": "https://jichunge-a6982.firebaseio.com",
+    "project_id": "jichunge-a6982",
+    "storage_bucket": "jichunge-a6982.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872310380554:android:a2a4b3516315f005",
+        "android_client_info": {
+          "package_name": "com.example.alex.jichunge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872310380554-cgnq7f2g1emvpju6qc7frits9u1gi5p0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alex.jichunge",
+            "certificate_hash": "22ae6ae02cbc77ea317a2361a931ec8828d59eb4"
+          }
+        },
+        {
+          "client_id": "872310380554-0g809u9pr9vgijej47089hod13lp028c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPfi5dhynv6mpYjy_a1oFMeS2PguExLvA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872310380554-0g809u9pr9vgijej47089hod13lp028c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
