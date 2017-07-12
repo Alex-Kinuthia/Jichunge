@@ -80,7 +80,7 @@
             android:name=".ui.MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity
-            android:name=".ui.SignupActivity"
+            android:name=".ui.Splash"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -90,7 +90,7 @@
         </activity>
         <activity android:name=".ui.DraftSms" />
         <activity android:name=".ui.AboutUs" />
-        <activity android:name=".ui.Splash" />
+        <activity android:name=".ui.SignupActivity" />
         <activity android:name=".ui.LoginActivity"></activity>
     </application>
 
