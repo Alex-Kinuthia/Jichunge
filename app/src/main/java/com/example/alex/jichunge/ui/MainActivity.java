@@ -140,11 +140,6 @@ public class MainActivity extends AppCompatActivity
             MainActivity.this.startActivity(myIntent);
 
         }
-        else if (id == R.id.about_us) {
-            Intent myIntent = new Intent(MainActivity.this, AboutUs.class);
-            MainActivity.this.startActivity(myIntent);
-
-        }
         else if (id == R.id.nav_logout) {
             logout();
             return true;
