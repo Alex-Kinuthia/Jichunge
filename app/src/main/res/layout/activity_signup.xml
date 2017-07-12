@@ -92,13 +92,13 @@
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/connfirmpassword"
+                    android:id="@+id/confirmpassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@android:color/white"
                     android:hint="Password Confirm"
                     android:inputType="textPassword"
-                    android:nextFocusDown="@+id/connfirmpassword"
+                    android:nextFocusDown="@+id/confirmpassword"
                     android:padding="10dp"
                     android:layout_marginTop="7dp"
                     android:textColor="@android:color/black"

@@ -37,7 +37,7 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
     EditText mUname;
     @Bind(R.id.email) EditText mEmail;
     @Bind(R.id.password) EditText mPassword;
-    @Bind(R.id.connfirm_password) EditText mPassword_confirm;
+    @Bind(R.id.confirmpassword) EditText mPassword_confirm;
 
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
