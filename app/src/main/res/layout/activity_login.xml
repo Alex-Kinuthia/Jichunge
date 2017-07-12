@@ -2,7 +2,25 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:fitsSystemWindows="true">
+    android:fitsSystemWindows="true"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/login_app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/colorIcons"
+        android:textAlignment="center"
+        android:textSize="32dp"/>
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/fist"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/login_app_name"/>
 
     <LinearLayout
         android:orientation="vertical"
@@ -49,13 +67,13 @@
             android:text="Log in"
             android:background="@color/colorAccent"
             android:layout_marginTop="15dp"
-            android:textColor="@color/colorTextIcons" />
+            android:textColor="@color/colorIcons" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:textColor="@color/colorPrimaryText"
+            android:textColor="@color/colorIcons"
             android:textStyle="bold"
             android:textSize="16sp"
             android:text="Don't have an account? Sign up here!"
@@ -64,14 +82,6 @@
 
     </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        android:textColor="@color/colorPrimaryLight"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:layout_above="@+id/linearLayout"
-        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>
