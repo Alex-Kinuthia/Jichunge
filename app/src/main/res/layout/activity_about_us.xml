@@ -21,12 +21,24 @@
 
     <TextView
         android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="91dp"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/about_us"
+        android:text="Application Developers"
         android:id="@+id/about_us"
 
+        />
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_width="90dp"
+        android:background="@drawable/ale"
+        android:layout_height="80dp"/>
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         />
 </RelativeLayout>
