@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="black">#383838</color>
-    <color name="white">#ffffff</color>
-</resources>
-
-    <color name="colorPrimary">#1e2b31</color>
-    <color name="colorPrimaryDark">#182328</color>
-    <color name="colorAccent">#E96505</color>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorPrimaryLight">#FFCDD2</color>
+    <color name="colorAccent">#00BCD4</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorDivider">#BDBDBD</color>
 
     <!--Splash Theme Colors-->
     <color name="splashColorPrimary">#182328</color>
@@ -21,4 +18,3 @@
     <color name="black">#383838</color>
     <color name="lightGrey">#BDBDBD</color>
 </resources>
-
