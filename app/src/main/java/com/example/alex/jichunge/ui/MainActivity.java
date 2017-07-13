@@ -19,6 +19,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.alex.jichunge.R;
+import com.google.firebase.auth.FirebaseAuth;
 
 //This activity provides the navigation drawer and emergency buttons such as the send alert msg, send safety msg and show my location.
 public class MainActivity extends AppCompatActivity
@@ -139,10 +140,9 @@ public class MainActivity extends AppCompatActivity
             MainActivity.this.startActivity(myIntent);
 
         }
-        else if (id == R.id.about_us) {
-            Intent myIntent = new Intent(MainActivity.this, AboutUs.class);
-            MainActivity.this.startActivity(myIntent);
-
+        else if (id == R.id.nav_logout) {
+            logout();
+            return true;
         }
         else if (id == R.id.nav_logout) {
             Intent myIntent = new Intent(MainActivity.this, LoginActivity.class);
@@ -178,8 +178,8 @@ public class MainActivity extends AppCompatActivity
     }
 
     //this method is used to shoot sms
-    public void sendSms(String msg)
-    {SharedPreferences sharedpreferences = getSharedPreferences("Emergency_Numbers", Context.MODE_PRIVATE);
+    public void sendSms(String msg) {
+        SharedPreferences sharedpreferences = getSharedPreferences("Emergency_Numbers", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor =  sharedpreferences.edit();
         int size_of_emergency_contacts = sharedpreferences.getAll().size();
         int j=0;
@@ -198,5 +198,13 @@ public class MainActivity extends AppCompatActivity
             e.printStackTrace();
         }
 
+    }
+
+    private void logout() {
+        FirebaseAuth.getInstance().signOut();
+        Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+        finish();
     }
 }

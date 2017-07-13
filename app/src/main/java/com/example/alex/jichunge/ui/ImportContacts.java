@@ -10,6 +10,7 @@ import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.example.alex.jichunge.R;
 
@@ -58,6 +59,7 @@ public class ImportContacts extends Activity {
         //adapter=new ArrayAdapter<String>(this,R.layout.customcontactslist,con);
         contactslist.setAdapter(new CustomAdapter(ImportContacts.this, list));
 
+
         //contactslist.setAdapter(adapter);
     }
     // We iterate through the shared prefs file called Emergency_Contacts to get the name and pass it to the method getPhoneNumber().
@@ -89,7 +91,7 @@ public class ImportContacts extends Activity {
             size_of_emergency_contacts--;
 
         }
-
+        Toast.makeText(this, "saved", Toast.LENGTH_SHORT).show();
         //        System.out.print("say" + sharedpreferences.getString("name0", "blah"));
         //      System.out.print("say" + sharedpreferences.getString("name1", "blah"));
         editor1 = sharedpreferences1.edit();
