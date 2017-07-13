@@ -49,6 +49,50 @@
           "status": 2
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872310380554:android:d75426aeb8ed9e3b",
+        "android_client_info": {
+          "package_name": "com.mutuma.collins.jichunge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872310380554-3p9a146a6fntabtef0o4vubo6emis2v2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mutuma.collins.jichunge",
+            "certificate_hash": "22ae6ae02cbc77ea317a2361a931ec8828d59eb4"
+          }
+        },
+        {
+          "client_id": "872310380554-0g809u9pr9vgijej47089hod13lp028c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPfi5dhynv6mpYjy_a1oFMeS2PguExLvA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872310380554-0g809u9pr9vgijej47089hod13lp028c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
     }
   ],
   "configuration_version": "1"

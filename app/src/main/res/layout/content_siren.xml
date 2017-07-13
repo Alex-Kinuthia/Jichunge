@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.alex.jichunge.ui.SirenActivity"
+    tools:context="com.mutuma.collins.jichunge.ui.SirenActivity"
     tools:showIn="@layout/activity_siren"
     android:background="@drawable/side_nav_bar"
     >

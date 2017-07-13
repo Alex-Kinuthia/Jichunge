@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.alex.jichunge.ui.SirenActivity"
+    tools:context="com.mutuma.collins.jichunge.ui.SirenActivity"
     android:background="@drawable/side_nav_bar">
 
     <android.support.design.widget.AppBarLayout
