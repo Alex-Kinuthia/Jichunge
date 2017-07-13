@@ -56,7 +56,7 @@ public class CallActivity extends AppCompatActivity {
         try {
 
             startActivity(in);
-            Toast.makeText(getApplicationContext(),"Call sent",Toast.LENGTH_LONG).show();
+            Toast.make                                                                                                                              Text(getApplicationContext(),"Call sent",Toast.LENGTH_LONG).show();
         }
 
         catch (ActivityNotFoundException ex){

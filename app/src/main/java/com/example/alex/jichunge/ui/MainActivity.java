@@ -144,6 +144,10 @@ public class MainActivity extends AppCompatActivity
             logout();
             return true;
         }
+        else if (id == R.id.nav_logout) {
+            Intent myIntent = new Intent(MainActivity.this, LoginActivity.class);
+            MainActivity.this.startActivity(myIntent);
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
