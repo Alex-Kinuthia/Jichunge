@@ -28,6 +28,12 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
 
     private static final String TAG = SignupActivity.class.getSimpleName();
 
+<<<<<<< HEAD
+    @Bind(R.id.email_sign_up_button) Button mButtomSignUp;
+    @Bind(R.id.signup_login) TextView msignIn;
+
+    @Bind(R.id.UserName) EditText mUname;
+=======
     @Bind(R.id.email_sign_up_button)
     Button mButtomSignUp;
     @Bind(R.id.signup_login)
@@ -35,6 +41,7 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
 
     @Bind(R.id.UserName)
     EditText mUname;
+>>>>>>> 338aec7e6d60f9ec7ae1ba9591e87d806a3cdac1
     @Bind(R.id.email) EditText mEmail;
     @Bind(R.id.password) EditText mPassword;
     @Bind(R.id.confirmpassword) EditText mPassword_confirm;
@@ -182,5 +189,9 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
             mAuth.removeAuthStateListener(mAuthListener);
         }
     }
+<<<<<<< HEAD
+}
+=======
 }
 
+>>>>>>> 338aec7e6d60f9ec7ae1ba9591e87d806a3cdac1

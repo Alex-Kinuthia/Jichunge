@@ -13,7 +13,7 @@ import android.os.IBinder;
 import android.support.v4.content.ContextCompat;
 
 /**
- * Created by collins on 7/11/17.
+ * Created by alex on 7/11/17.
  */
 
 //This activity contains code for providing the location of the user where he was seen last on his gps.
