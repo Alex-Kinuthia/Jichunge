@@ -11,7 +11,7 @@ is in a new place.
 https://github.com/Alex-Kinuthia/Jichunge
 
 # Contacts
-To find us, here is our email accounts:
+To find us, here is our email accounts:<br>
 Alex Kinuthia - alexkinuthia125@gmail.com <br>
 Collins Mwiti - mwiticmutumamwenda@gmail.com 
 
