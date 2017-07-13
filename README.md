@@ -1,5 +1,5 @@
 # Authors
-Alex Kinuthia
+Alex Kinuthia <br>
 Collins Mwiti
 
 # Description
@@ -12,7 +12,7 @@ https://github.com/Alex-Kinuthia/Jichunge
 
 # Contacts
 To find us, here is our email accounts:
-Alex Kinuthia - alexkinuthia125@gmail.com
+Alex Kinuthia - alexkinuthia125@gmail.com <br>
 Collins Mwiti - mwiticmutumamwenda@gmail.com 
 
 # Code Example
