@@ -1,28 +1,5 @@
 package com.example.alex.jichunge.ui;
 
-<<<<<<< HEAD
- import android.app.ProgressDialog;
-        import android.content.Intent;
-        import android.support.annotation.NonNull;
-        import android.support.v7.app.AppCompatActivity;
-        import android.os.Bundle;
-        import android.util.Log;
-        import android.view.View;
-        import android.widget.Button;
-        import android.widget.EditText;
-        import android.widget.TextView;
-        import android.widget.Toast;
-        import com.example.alex.jichunge.R;
-
-        import com.google.android.gms.tasks.OnCompleteListener;
-        import com.google.android.gms.tasks.Task;
-        import com.google.firebase.auth.AuthResult;
-        import com.google.firebase.auth.FirebaseAuth;
-        import com.google.firebase.auth.FirebaseUser;
-
-        import butterknife.Bind;
-        import butterknife.ButterKnife;
-=======
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -44,17 +21,12 @@ import com.google.firebase.auth.FirebaseUser;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
->>>>>>> 338aec7e6d60f9ec7ae1ba9591e87d806a3cdac1
+
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
     public static final String TAG = LoginActivity.class.getSimpleName();
 
-<<<<<<< HEAD
-    @Bind(R.id.passwordLoginButton) Button mPasswordLoginButton;
-    @Bind(R.id.emailEditText) EditText mEmailEditText;
-    @Bind(R.id.passwordEditText) EditText mPasswordEditText;
-    @Bind(R.id.registerTextView) TextView mRegisterTextView;
-=======
+
     @Bind(R.id.passwordLoginButton)
     Button mPasswordLoginButton;
     @Bind(R.id.emailEditText)
@@ -62,7 +34,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     @Bind(R.id.passwordEditText) EditText mPasswordEditText;
     @Bind(R.id.registerTextView)
     TextView mRegisterTextView;
->>>>>>> 338aec7e6d60f9ec7ae1ba9591e87d806a3cdac1
+
 
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
@@ -165,7 +137,3 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 338aec7e6d60f9ec7ae1ba9591e87d806a3cdac1
