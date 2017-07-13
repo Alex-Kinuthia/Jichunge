@@ -3,8 +3,7 @@ Alex Kinuthia <br>
 Collins Mwiti
 
 # Description
-This is an application which notifies the users emergency contacts by sms or a call when the user is in danger. It also consists of
-a siren to alert incase if the user has been cornered by thugs or mugs and has a map to show the user his/her location if he/she
+This is an application which notifies the users emergency contacts by sms or a call when the user is in danger. It also consists of a siren to alert incase if the user has been cornered by thugs ,also, it has a map to show the user his/her location if he/she
 is in a new place.
 
 # Github-link
