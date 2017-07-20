@@ -163,15 +163,14 @@ public class MainActivity extends AppCompatActivity
     //on click of send alert msg button, this method is called.
     public void onAlertClick(View v)
     {
-
         SharedPreferences sharedpreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
         String Alertmsg = sharedpreferences.getString("Alertmsg","Help");
         sendSms(Alertmsg);
     }
+
     //on click of send safety msg button, this method is called.
     public void onSafeClick(View v)
     {
-
         SharedPreferences sharedpreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
         String Alertmsg = sharedpreferences.getString("Safetymsg","Reached safely");
         sendSms(Alertmsg);

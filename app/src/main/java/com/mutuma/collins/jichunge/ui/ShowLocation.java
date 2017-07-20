@@ -23,14 +23,15 @@ import android.widget.Toast;
 import com.mutuma.collins.jichunge.R;
 
 public class ShowLocation extends AppCompatActivity {
-    String result="My Location\n";
+    String result = "My Location\n";
     Button btnGPSShowLocation;
     Button btnShowAddress;
     TextView tvAddress;
-    public static final String MyPREFERENCES = "MyPrefs" ;
+    public static final String MyPREFERENCES = "MyPrefs";
     AppLocationService appLocationService;
     SharedPreferences sharedpreferences;
     SharedPreferences.Editor editor;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,21 +46,24 @@ public class ShowLocation extends AppCompatActivity {
 
         editor = sharedpreferences.edit();
 
-        appLocationService = new AppLocationService(
-                ShowLocation.this);
 
         btnShowAddress = (Button) findViewById(R.id.btnShowAddress);
         btnShowAddress.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
 
+                appLocationService = new AppLocationService(
+                        ShowLocation.this);
+
                 Location location = appLocationService
                         .getLocation(LocationManager.GPS_PROVIDER);
+
 
                 //you can hard-code the lat & long if you have issues with getting it
                 //remove the below if-condition and use the following couple of lines
                 //double latitude = 37.422005;
-                //double longitude = -122.084095
+//                //double longitude = -122.084095
+//                getLocation();
 
                 if (location != null) {
                     double latitude = location.getLatitude();
@@ -68,6 +72,7 @@ public class ShowLocation extends AppCompatActivity {
                     locationAddress.getAddressFromLocation(latitude, longitude,
                             getApplicationContext(), new GeocoderHandler());
                     result = locationAddress.toString();
+
                 }// else {
                 //  showSettingsAlert();
                 //}
@@ -168,4 +173,36 @@ public class ShowLocation extends AppCompatActivity {
             //tvAddress.setText(locationAddress);
         }
     }
+
+
+    /**
+     * Allows us to fetch current location of the user
+     *
+     * @return Returns String of current location
+     */
+
+//    public String getLocation() {
+//
+//        Location location = appLocationService
+//                .getLocation(LocationManager.GPS_PROVIDER);
+//
+//
+//        if (location != null) {
+//            double latitude = location.getLatitude();
+//            double longitude = location.getLongitude();
+//            LocationAddress locationAddress = new LocationAddress();
+//            locationAddress.getAddressFromLocation(latitude, longitude,
+//                    getApplicationContext(), new GeocoderHandler());
+//            result = locationAddress.toString();
+//            setLocation(result);
+//        }
+//        return result;
+//    }
+
+
+
+    public void setLocation(String result){
+        this.result = result;
+    }
+
 }
