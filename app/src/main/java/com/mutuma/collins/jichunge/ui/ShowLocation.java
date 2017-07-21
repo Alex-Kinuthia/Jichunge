@@ -63,7 +63,7 @@ public class ShowLocation extends AppCompatActivity {
                 //remove the below if-condition and use the following couple of lines
                 //double latitude = 37.422005;
 //                //double longitude = -122.084095
-//                getLocation();
+                getLocation();
 
                 if (location != null) {
                     double latitude = location.getLatitude();
@@ -181,23 +181,23 @@ public class ShowLocation extends AppCompatActivity {
      * @return Returns String of current location
      */
 
-//    public String getLocation() {
-//
-//        Location location = appLocationService
-//                .getLocation(LocationManager.GPS_PROVIDER);
-//
-//
-//        if (location != null) {
-//            double latitude = location.getLatitude();
-//            double longitude = location.getLongitude();
-//            LocationAddress locationAddress = new LocationAddress();
-//            locationAddress.getAddressFromLocation(latitude, longitude,
-//                    getApplicationContext(), new GeocoderHandler());
-//            result = locationAddress.toString();
-//            setLocation(result);
-//        }
-//        return result;
-//    }
+    public String getLocation() {
+
+        Location location = appLocationService
+                .getLocation(LocationManager.GPS_PROVIDER);
+
+
+        if (location != null) {
+            double latitude = location.getLatitude();
+            double longitude = location.getLongitude();
+            LocationAddress locationAddress = new LocationAddress();
+            locationAddress.getAddressFromLocation(latitude, longitude,
+                    getApplicationContext(), new GeocoderHandler());
+            result = locationAddress.toString();
+            setLocation(result);
+        }
+        return result;
+    }
 
 
 

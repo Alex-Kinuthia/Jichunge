@@ -132,7 +132,7 @@ public class AppWidget extends AppWidgetProvider implements View.OnClickListener
     private void sendSms() {
 
         SmsManager manager = SmsManager.getDefault();
-        String smsContext = "Help!!! I'm in danger.";
+        String smsContext = "Help!!! I'm in danger.I am at Nairobi, Ngong Lane";
         String[] contacts = {"+254716007495", "+254701928677", "+254722212132"};
 //                {"+254716007495", "+254701928677", "+254722212132",};
 
