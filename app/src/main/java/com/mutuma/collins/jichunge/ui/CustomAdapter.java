@@ -87,7 +87,7 @@ public class CustomAdapter extends BaseAdapter {
                 holder.checkBox1.setChecked(true);
                 editor.putString("name"+i,result.get(position));
                 editor.commit();
-                Toast.makeText(context, "You Clicked " +sharedpreferences.getString("name"+i,"Yash") , Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "You Clicked " +sharedpreferences.getString("name"+i,"Collins") , Toast.LENGTH_SHORT).show();
                 i++;
                 //   System.out.print("saylii"+sharedpreferences.getAll());
             }

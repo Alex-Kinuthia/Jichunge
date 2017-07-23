@@ -4,9 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -18,8 +16,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.mutuma.collins.jichunge.R;
 import com.google.firebase.auth.FirebaseAuth;
+import com.mutuma.collins.jichunge.R;
 
 //This activity provides the navigation drawer and emergency buttons such as the send alert msg, send safety msg and show my location.
 public class MainActivity extends AppCompatActivity
@@ -38,17 +36,17 @@ public class MainActivity extends AppCompatActivity
         // ColorDrawable colorDrawable = new ColorDrawable(Color.rgb(179,0,0));
         //   bar.setBackgroundDrawable(colorDrawable);
 
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-                Intent in = new Intent(MainActivity.this,ShowLocation.class);
-                startActivity(in);
-            }
-        });
+//
+//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+//        fab.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
+//                Intent in = new Intent(MainActivity.this,ShowLocation.class);
+//                startActivity(in);
+//            }
+//        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -126,14 +124,14 @@ public class MainActivity extends AppCompatActivity
             MainActivity.this.startActivity(myIntent);
 
 
-        } else if (id == R.id.nav_slideshow) {
-            Intent myIntent = new Intent(MainActivity.this, SirenActivity.class);
-            MainActivity.this.startActivity(myIntent);
-
-
-        } else if (id == R.id.nav_manage) {
-            Intent myIntent = new Intent(MainActivity.this, DraftSms.class);
-            MainActivity.this.startActivity(myIntent);
+//        } else if (id == R.id.nav_slideshow) {
+//            Intent myIntent = new Intent(MainActivity.this, SirenActivity.class);
+//            MainActivity.this.startActivity(myIntent);
+//
+//
+//        } else if (id == R.id.nav_manage) {
+//            Intent myIntent = new Intent(MainActivity.this, DraftSms.class);
+//            MainActivity.this.startActivity(myIntent);
 
         } else if (id == R.id.nav_call) {
             Intent myIntent = new Intent(MainActivity.this, CallActivity.class);
@@ -163,15 +161,14 @@ public class MainActivity extends AppCompatActivity
     //on click of send alert msg button, this method is called.
     public void onAlertClick(View v)
     {
-
         SharedPreferences sharedpreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
         String Alertmsg = sharedpreferences.getString("Alertmsg","Help");
         sendSms(Alertmsg);
     }
+
     //on click of send safety msg button, this method is called.
     public void onSafeClick(View v)
     {
-
         SharedPreferences sharedpreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
         String Alertmsg = sharedpreferences.getString("Safetymsg","Reached safely");
         sendSms(Alertmsg);

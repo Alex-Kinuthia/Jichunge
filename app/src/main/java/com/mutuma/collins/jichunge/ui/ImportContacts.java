@@ -7,6 +7,7 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -71,7 +72,7 @@ public class ImportContacts extends Activity {
         //editor1 = sharedpreferences.edit();
         String id = "";
         int i = 0;
-        String phoneNumber = "9820379688";
+        String phoneNumber = null;
         ContentResolver cr = getContentResolver();
         int size_of_emergency_contacts = sharedpreferences.getAll().size();
         //Cursor phones;
@@ -92,6 +93,9 @@ public class ImportContacts extends Activity {
 
         }
         Toast.makeText(this, "saved", Toast.LENGTH_SHORT).show();
+        
+        Log.v("sharedpref",phoneNumber);
+        Log.v("contentsharedpref",sharedpreferences.toString());
         //        System.out.print("say" + sharedpreferences.getString("name0", "blah"));
         //      System.out.print("say" + sharedpreferences.getString("name1", "blah"));
         editor1 = sharedpreferences1.edit();
@@ -124,5 +128,10 @@ public class ImportContacts extends Activity {
         if(ret==null)
             ret = "Unsaved";
         return ret;
+    }
+
+    public  String  sendContacts(){
+
+        return sharedpreferences.toString();
     }
 }

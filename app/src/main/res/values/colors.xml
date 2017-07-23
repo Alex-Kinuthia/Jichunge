@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#F44336</color>
-    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorPrimaryDark">#800000</color>
     <color name="colorPrimaryLight">#FFCDD2</color>
     <color name="colorAccent">#00BCD4</color>
     <color name="colorPrimaryText">#212121</color>
@@ -9,7 +9,7 @@
     <color name="colorIcons">#FFFFFF</color>
     <color name="colorDivider">#BDBDBD</color>
 
-    <!--Splash Theme Colors-->
+    <!--Splashscreen Theme Colors-->
     <color name="splashColorPrimary">#182328</color>
     <color name="splashColorPrimaryDark">#182328</color>
     <color name="splashColorAccent">#E96505</color>

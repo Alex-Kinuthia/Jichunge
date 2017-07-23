@@ -16,6 +16,13 @@
     <string name="title_activity_maps">Map</string>
     <string name="about_us">Developed by Alex Kinuthia and Collins Mwiti</string>
     <string name="location">Nairobi, Kenya</string>
+    <string name="appwidget_text">Jichunge</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <!---->
+    <!--string escaping android apostrophes-->
+    <string name="help"> Help!!! Im in danger</string>
+
 
 
 </resources>
