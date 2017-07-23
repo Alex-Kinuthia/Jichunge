@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
     android:background="@drawable/side_nav_bar"
@@ -14,16 +14,21 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="97dp"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:src="@drawable/fist" />
+        android:src="@drawable/fist"
+        android:layout_above="@+id/textView3" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/textView3"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Be Safe!"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        android:text="Jichunge!"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/imageView" />
 
 
-</LinearLayout>
+</RelativeLayout>

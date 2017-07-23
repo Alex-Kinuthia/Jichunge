@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:fitsSystemWindows="true"
-    android:background="@color/colorPrimary">
+    android:background="@drawable/side_nav_bar">
 
     <TextView
         android:id="@+id/login_app_name"
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="Log in"
-            android:background="@color/colorAccent"
+            android:background="#1A237E"
             android:layout_marginTop="15dp"
             android:textColor="@color/colorIcons" />
 
