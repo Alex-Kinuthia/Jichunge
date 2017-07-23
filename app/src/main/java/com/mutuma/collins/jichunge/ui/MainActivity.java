@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity
     public void onAlertClick(View v)
     {
         SharedPreferences sharedpreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
-        String Alertmsg = sharedpreferences.getString("Alertmsg","Help");
+        String Alertmsg = sharedpreferences.getString("Alertmsg","Help!!! I'm in danger");
         sendSms(Alertmsg);
     }
 
