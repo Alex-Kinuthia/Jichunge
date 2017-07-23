@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity
     public void onAlertClick(View v)
     {
         SharedPreferences sharedpreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
-        String Alertmsg = sharedpreferences.getString("Alertmsg","Help!!! I'm in danger");
+        String Alertmsg = sharedpreferences.getString("Alertmsg","Help!!! I'm in danger.I am at Nairobi, Ngong Lane");
         sendSms(Alertmsg);
     }
 
@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity
     public void onSafeClick(View v)
     {
         SharedPreferences sharedpreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
-        String Alertmsg = sharedpreferences.getString("Safetymsg","Reached safely");
+        String Alertmsg = sharedpreferences.getString("Safetymsg","Reached safely.I am at Nairobi, Ngong Lane");
         sendSms(Alertmsg);
     }
 
